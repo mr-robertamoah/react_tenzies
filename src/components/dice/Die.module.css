@@ -1,0 +1,14 @@
+.die{
+    padding: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.held{
+    background-color: aqua;
+}

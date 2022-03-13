@@ -1,0 +1,49 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 85vh;
+  width: 100%;
+  margin: auto;
+}
+
+.app-header{
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.app-title{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.app-paragraph{
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.app-info{
+  margin: 0 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: antiquewhite;
+  border-radius: 40%;
+}
+
+.app-error-message{
+  background-color: rgba(255, 0, 0, 0.308);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+  color: red;
+}
+
+.app-header-span {
+  margin: 0 0 0 10px;
+  color: green;
+  font-size: 13px;
+  font-style: normal;
+}

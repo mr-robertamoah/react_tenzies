@@ -1,0 +1,13 @@
+.container{
+    width: fit-content;
+    background-color: azure;
+    border: none;
+    box-shadow: 10px 10px 1px beige;
+    margin: auto 10px;
+    padding: 20px;
+    display: flex;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
